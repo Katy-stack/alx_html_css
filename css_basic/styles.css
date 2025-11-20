@@ -3,6 +3,34 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+article {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+aside {
+    background-color: #ffe0b2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
 }
 
 main {
@@ -36,6 +64,11 @@ aside {
     overflow-y: auto;
     background-color: #c8c8c8;
     padding: 10px;
+}
+.logo {
+    font-size: 1.8em;
+    color: gold;
+    margin-right: 10px;
 }
 
 
